@@ -1,4 +1,26 @@
 <h1>網管</h1>
 <h2>W2</h2>
+<h3>建網站</h3>
+<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
+<h4>利用 cmsimde 建立靜態網誌方法:</h4>
+<p>1. 在 github 建立倉儲, git clone 到近端</p>
+<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
+<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
+<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
+<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
+<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
+<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
+<p>git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<h2>w3</h2>
+<h1>哈囉</h1>
+<p>terminology 專業術語、particular 特別、technical 技術、application 應用、</p>
+<p>software 軟體、hardware 硬體、firmwarre 韌體、machine language 機器語言、</p>
+<p>URL:Uniform Resourse Locator  統一資源定位、command wundow 命令視窗</p>
+<p>程式令:</p>
+<p>Y:←指y槽 Y:\   ←表示Y槽的root根目錄 &gt; 為回應符號(prormptsign)  \ 為blackslash 反斜線 dir為顯示目錄內容的指令 cd tmp 表示change directory 到指定的目錄 git為分散式版次管理的指令名稱 git clone</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 <h2>W8</h2>
 <p>讓我們實作一次分組，弄meet.google.com的實際操作。好讓下次上課可以線上上課。</p>
